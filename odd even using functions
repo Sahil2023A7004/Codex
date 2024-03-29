@@ -1,0 +1,16 @@
+#include<stdio.h>
+void oddeven(int x)//pass by value value of a passed to x
+{
+    if(x%2==0)
+    printf("%d is even\n");
+    else
+    printf("%d is odd\n");
+}
+int main()
+{
+    int a;
+    printf("enter a\n");
+    scanf("%d",&a);
+    oddeven(a);
+    return 0;
+}
